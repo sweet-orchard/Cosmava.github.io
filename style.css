@@ -138,6 +138,12 @@ section {
 
 }
 
+@media(max-width: 500px){
+    .project-images{
+        width: fit-content;
+    }
+}
+
 @media(min-width: 1000px){
     .project{
         text-align: center;
