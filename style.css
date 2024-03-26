@@ -59,11 +59,11 @@ header {
     width: 20%;
     text-align: right;
 }
-.row:after{
+/* .row:after{
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 /* Style the sections */
 section {
@@ -137,7 +137,7 @@ section {
 }
 
 .column.middle{
-    min-width: 300px;
+    min-width: 500px;
 }
 
 @media(min-width: 1000px){
@@ -148,6 +148,12 @@ section {
         height: 30vh;
 
 
+    }
+}
+
+@media(max-width: 630px){
+    .column.middle{
+        width: 100%;
     }
 }
 
