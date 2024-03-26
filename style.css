@@ -131,17 +131,13 @@ section {
     }
 
     .project-images{
-        width: 40vw;
-
-
+        width: 180px;
     }
 
 }
 
-@media(max-width: 500px){
-    .project-images{
-        width: fit-content;
-    }
+.column.middle{
+    min-width: 300px;
 }
 
 @media(min-width: 1000px){
